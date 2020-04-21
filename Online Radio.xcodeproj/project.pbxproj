@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5C393E412445FD8E00EC5225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C393E402445FD8E00EC5225 /* AppDelegate.swift */; };
-		5C393E432445FD8E00EC5225 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C393E422445FD8E00EC5225 /* SceneDelegate.swift */; };
 		5C393E452445FD8E00EC5225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C393E442445FD8E00EC5225 /* ViewController.swift */; };
 		5C393E482445FD8E00EC5225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C393E462445FD8E00EC5225 /* Main.storyboard */; };
 		5C393E4A2445FD8F00EC5225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C393E492445FD8F00EC5225 /* Assets.xcassets */; };
 		5C393E4D2445FD8F00EC5225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C393E4B2445FD8F00EC5225 /* LaunchScreen.storyboard */; };
-		5C393E582445FD9000EC5225 /* Online_RadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C393E572445FD9000EC5225 /* Online_RadioTests.swift */; };
-		5C393E632445FD9000EC5225 /* Online_RadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C393E622445FD9000EC5225 /* Online_RadioUITests.swift */; };
+		5CA9B21C244F550D00DB9F60 /* LabelTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA9B21A244F550D00DB9F60 /* LabelTable.swift */; };
+		5CA9B21D244F550D00DB9F60 /* LabelTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA9B21B244F550D00DB9F60 /* LabelTable.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +36,15 @@
 /* Begin PBXFileReference section */
 		5C393E3D2445FD8E00EC5225 /* Online Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Online Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C393E402445FD8E00EC5225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C393E422445FD8E00EC5225 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C393E442445FD8E00EC5225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5C393E472445FD8E00EC5225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C393E492445FD8F00EC5225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C393E4C2445FD8F00EC5225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C393E4E2445FD9000EC5225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C393E532445FD9000EC5225 /* Online RadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Online RadioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C393E572445FD9000EC5225 /* Online_RadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_RadioTests.swift; sourceTree = "<group>"; };
-		5C393E592445FD9000EC5225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C393E5E2445FD9000EC5225 /* Online RadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Online RadioUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C393E622445FD9000EC5225 /* Online_RadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Online_RadioUITests.swift; sourceTree = "<group>"; };
-		5C393E642445FD9000EC5225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA9B21A244F550D00DB9F60 /* LabelTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTable.swift; sourceTree = "<group>"; };
+		5CA9B21B244F550D00DB9F60 /* LabelTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTable.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				5C393E3F2445FD8E00EC5225 /* Online Radio */,
-				5C393E562445FD9000EC5225 /* Online RadioTests */,
-				5C393E612445FD9000EC5225 /* Online RadioUITests */,
 				5C393E3E2445FD8E00EC5225 /* Products */,
+				5CA9B211244F472200DB9F60 /* Online RadioUITests */,
+				5CA9B210244F471B00DB9F60 /* Online RadioTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,33 +96,38 @@
 			isa = PBXGroup;
 			children = (
 				5C393E402445FD8E00EC5225 /* AppDelegate.swift */,
-				5C393E422445FD8E00EC5225 /* SceneDelegate.swift */,
 				5C393E442445FD8E00EC5225 /* ViewController.swift */,
 				5C393E462445FD8E00EC5225 /* Main.storyboard */,
-				5C393E492445FD8F00EC5225 /* Assets.xcassets */,
-				5C393E4B2445FD8F00EC5225 /* LaunchScreen.storyboard */,
 				5C393E4E2445FD9000EC5225 /* Info.plist */,
+				5CA9B20D244F288600DB9F60 /* Supporting files */,
+				5CA9B21A244F550D00DB9F60 /* LabelTable.swift */,
+				5CA9B21B244F550D00DB9F60 /* LabelTable.xib */,
 			);
 			path = "Online Radio";
 			sourceTree = "<group>";
 		};
-		5C393E562445FD9000EC5225 /* Online RadioTests */ = {
+		5CA9B20D244F288600DB9F60 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
-				5C393E572445FD9000EC5225 /* Online_RadioTests.swift */,
-				5C393E592445FD9000EC5225 /* Info.plist */,
+				5C393E4B2445FD8F00EC5225 /* LaunchScreen.storyboard */,
+				5C393E492445FD8F00EC5225 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		5CA9B210244F471B00DB9F60 /* Online RadioTests */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = "Online RadioTests";
 			sourceTree = "<group>";
 		};
-		5C393E612445FD9000EC5225 /* Online RadioUITests */ = {
+		5CA9B211244F472200DB9F60 /* Online RadioUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C393E622445FD9000EC5225 /* Online_RadioUITests.swift */,
-				5C393E642445FD9000EC5225 /* Info.plist */,
 			);
 			path = "Online RadioUITests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -235,6 +236,7 @@
 				5C393E4D2445FD8F00EC5225 /* LaunchScreen.storyboard in Resources */,
 				5C393E4A2445FD8F00EC5225 /* Assets.xcassets in Resources */,
 				5C393E482445FD8E00EC5225 /* Main.storyboard in Resources */,
+				5CA9B21D244F550D00DB9F60 /* LabelTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +263,7 @@
 			files = (
 				5C393E452445FD8E00EC5225 /* ViewController.swift in Sources */,
 				5C393E412445FD8E00EC5225 /* AppDelegate.swift in Sources */,
-				5C393E432445FD8E00EC5225 /* SceneDelegate.swift in Sources */,
+				5CA9B21C244F550D00DB9F60 /* LabelTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C393E582445FD9000EC5225 /* Online_RadioTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C393E632445FD9000EC5225 /* Online_RadioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
